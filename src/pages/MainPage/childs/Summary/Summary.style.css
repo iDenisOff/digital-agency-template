@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 120px 12% 107px 12%;
+}
+
+.summary {
+    display: grid;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    padding-bottom: 22px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+
+    color: #FFFFFF;
+
+    padding-bottom: 24px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    padding-bottom: 45px;
+}
+
+.link {
+    font-family: 'FontAwesome', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    cursor: pointer;
+
+    color: #FFD723;
+}

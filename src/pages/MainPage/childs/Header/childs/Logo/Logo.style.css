@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: 67px auto;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
