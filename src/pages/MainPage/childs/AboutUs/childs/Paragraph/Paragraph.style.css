@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+
+    padding: 120px 80px 33px 0;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: rgba(77, 83, 60, 0.9);
+
+    padding-bottom: 29px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: #4d533c;
+    padding-bottom: 35px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: rgba(33, 56, 66, 0.6);
+
+    padding-bottom: 42px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    cursor: pointer;
+
+    color: #d4d6d4;
+}
