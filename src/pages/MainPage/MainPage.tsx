@@ -4,6 +4,11 @@ import bg from "./images/background.png";
 import { Header } from "./childs/Header";
 import { Summary } from "./childs/Summary";
 import { PartnersList } from "./childs/PartnersList";
+import { AboutUs } from "./childs/AboutUs";
+import { Portfolio } from "./childs/Portfolio";
+import { Services } from "./childs/Services";
+import { LinkGetStarted } from "./childs/LinkGetStarted";
+import { Footer } from "./childs/Footer";
 
 export const MainPage: React.FC = () => {
     return (
@@ -11,6 +16,11 @@ export const MainPage: React.FC = () => {
             <Header />
             <Summary />
             <PartnersList />
+            <AboutUs />
+            <Portfolio />
+            <Services />
+            <LinkGetStarted />
+            <Footer />
         </div>
     );
 };

@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+
+    margin: 0 12%;
+    padding: 150px 0;
+    border-top: 1px solid rgba(33, 56, 66, 0.0955529);
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: #4d533c;
+
+    padding-bottom: 60px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

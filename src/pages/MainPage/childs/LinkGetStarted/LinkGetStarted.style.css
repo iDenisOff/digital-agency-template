@@ -1,0 +1,29 @@
+.container {
+    margin-right: 12%;
+    padding: 70px 164px;
+
+    background: #fafafa;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.header {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+
+    color: #4d533c;
+
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    cursor: pointer;
+
+    color: #d4d6d4;
+}

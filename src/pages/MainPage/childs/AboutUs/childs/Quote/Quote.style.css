@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+
+    margin-left: 81px;
+    padding: 120px 8px 0 0;
+
+    z-index: -1;
+    background: #ffffff;
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+
+    padding-left: 40px;
+    padding-bottom: 50px;
+    color: #4d533c;
+}
+
+.author-container {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+
+    padding-left: 20px;
+}
+
+.author-name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #4d533c;
+}
+
+.author-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #152934;
+}

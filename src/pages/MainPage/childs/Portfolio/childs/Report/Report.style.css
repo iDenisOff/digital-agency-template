@@ -1,0 +1,36 @@
+.container {
+    padding: 70px 0 100px 15px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #4d533c;
+
+    padding-bottom: 24px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: rgba(33, 56, 66, 0.6);
+
+    padding-bottom: 25px;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    color: #d4d6d4;
+
+    cursor: pointer;
+
+    padding-bottom: 137px;
+}
