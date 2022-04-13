@@ -12,7 +12,14 @@ import { Footer } from "./childs/Footer";
 
 export const MainPage: React.FC = () => {
     return (
-        <div className={styles.container} style={{ background: `url(${bg}) no-repeat fixed`, backgroundSize: "100%" }}>
+        <div
+            className={styles.container}
+            style={{
+                background: `url(${bg}) no-repeat fixed`,
+                backgroundSize: "100%",
+                backgroundPosition: "top",
+            }}
+        >
             <Header />
             <Summary />
             <PartnersList />

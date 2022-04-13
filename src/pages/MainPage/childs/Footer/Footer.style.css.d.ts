@@ -1,5 +1,6 @@
 declare namespace FooterStyleCssNamespace {
     export interface IFooterStyleCss {
+        backgroundEnd: string;
         container: string;
     }
 }

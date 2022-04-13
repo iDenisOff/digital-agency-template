@@ -1,7 +1,15 @@
 .container {
-    margin: 0 12%;
+    padding: 120px 12% 0 12%;
 
-    padding-top: 120px;
+    position: relative;
+}
 
-    background-color: #4f553d;
+.background-end {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+
+    width: 100%;
 }
