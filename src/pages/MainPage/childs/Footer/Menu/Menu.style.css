@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 2fr;
+
+    padding: 60px 0;
+    border-bottom: 1px solid #5d6544;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    padding-bottom: 21px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+
+    color: #b6c197;
+}
+
+.feedback {
+    grid-column: 4 / 5;
+
+    padding-left: 110px;
+    border-left: 1px solid #5d6544;
+}
+
+.mail {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+
+    padding: 25px 0;
+    color: #ffffff;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 4fr;
+}

@@ -57,7 +57,7 @@ export const Portfolio: React.FC = () => {
                         photo={author}
                         name={"Lina Hart"}
                         position={"Founder & CEO, Jico"}
-                        style={{ gridColumn: "1 / 7", gridRow: "1", marginTop: "83%" }}
+                        style={{ gridColumn: "1 / 8", gridRow: "1", marginTop: "83%" }}
                     />
                     <img src={case_2} alt={"case_2"} className={styles.imageRight} />
                 </div>

@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 67px auto auto;
+
+    padding: 30px 0;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+
+    color: #ffffff;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    color: #b5c096;
+}
