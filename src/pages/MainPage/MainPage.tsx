@@ -18,6 +18,7 @@ export const MainPage: React.FC = () => {
                 background: `url(${bg}) no-repeat fixed`,
                 backgroundSize: "100%",
                 backgroundPosition: "top",
+                backgroundAttachment: "local",
             }}
         >
             <Header />
